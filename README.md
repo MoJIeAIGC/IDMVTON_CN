@@ -1,2 +1,0 @@
-# IDMVTON_CN
-最强AI换衣模型IDMVTON的汉化优化一键安装版
