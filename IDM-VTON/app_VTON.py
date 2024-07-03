@@ -280,7 +280,7 @@ image_blocks = gr.Blocks(theme=gr.themes.Soft()).queue()
 with image_blocks as demo:
     demo.title="摩诘AI汉化优化版VTON_1.0"
     gr.Markdown("## 摩诘AI汉化优化版VTON，安装使用教程请查阅:" + "[使用教程](https://space.bilibili.com/483532108/)")
-    gr.Markdown("模特定制优化，本地/云端部署协助，请加 WeChat:MojieAIGC"+"|| 项目git地址：https://github.com/cynic1988/IDMVTON_CN")
+    gr.Markdown("模特定制优化，本地/云端部署协助，请加 WeChat:MojieAIGC"+"|| 项目git地址：https://github.com/MoJIeAIGC/IDMVTON_CN")
     with gr.Row():
         with gr.Column():
             imgs = gr.ImageEditor(sources='upload', type="pil", label='上装模特(768X1024)', interactive=True,crop_size="768:1024")

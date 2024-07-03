@@ -1,37 +1,37 @@
 @echo off
+chcp 65001
 
-echo WARNING. For this auto installer to work you need to have installed Python 3.10.11 or 3.10.13 and C++ tools 
+echo WARNING. 安装前需要你已在安装了python3.10.11或3.10.13 和C++生成工具
 echo follow this tutorial : https://space.bilibili.com/483532108/
 
-pip install requests
-pip install tqdm
+pip install requests -i https://pypi.org/simple
+pip install tqdm -i https://pypi.org/simple
 git lfs install
 
-git clone https://github.com/cynic1988/IDMVTON_CN
-
-set "url=https://raw.githubusercontent.com/FurkanGozukara/Stable-Diffusion/main/CustomPythonScripts/app_VTON.py"
 set "folder=IDM-VTON"
 set "filename=app_VTON.py"
-
-rem if not exist "%folder%" mkdir "%folder%"
-rem powershell -Command "(New-Object System.Net.WebClient).DownloadFile('%url%', '%folder%\%filename%')"
+rem set http_proxy=http://127.0.0.1:58309
+rem set https_proxy=https://127.0.0.1:58309
 
 cd IDM-VTON
 
 py --version >nul 2>&1
 if "%ERRORLEVEL%" == "0" (
-    echo Python launcher is available. Generating Python 3.10 VENV
+    echo 获取python版本，正在创建ven环境
     py -3.10 -m venv venv
 ) else (
-    echo Python launcher is not available, generating VENV with default Python. Make sure that it is 3.10
+    echo Python版本不正确 ，请安装python3.10
     python -m venv venv
 )
 
 call .\venv\Scripts\activate.bat
+pip config set global.index-url https://pypi.org/simple/
+pip config set install.trusted-host pypi.org
 
 pip install tqdm
 
-pip install -r requirements.txt
+pip install -r requirements.txt 
+
 
 echo installing requirements 
 
