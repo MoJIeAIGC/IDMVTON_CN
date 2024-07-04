@@ -1,0 +1,2 @@
+cpuoffload=1 
+precision=1 
