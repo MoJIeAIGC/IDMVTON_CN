@@ -55,7 +55,9 @@ coverage.xml
 # Translations
 *.mo
 *.pot
-
+*.pkl
+*.onnx
+*.pth
 # Django stuff:
 *.log
 local_settings.py
@@ -103,13 +105,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+
 IDM-VTON/venv/
 
 # Spyder project settings
