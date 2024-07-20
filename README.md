@@ -17,7 +17,7 @@ Star ⭐ us if you like it!
 
 ---
 ### 本版本对原项目idm-VTON界面做了汉化，优化了原有的内置模特和服装，用SD重做了新模特，增加了一键安装功能和一键运行功能,category成衣类型选项，随机种子和生成数量可选。
-### VTON可以对服装细节做很好的还原保留，对比目前市面上其他的OOTD等，对人物姿势动作识别以及服装还原效果更好。不过在使用上会有很多技巧，详情可以参考教程。
+### VTON可以对服装细节做很好的还原保留，对比目前其他同类模型OOTD等，对人物姿势动作识别以及服装还原效果更好。不过在使用上会有很多技巧，详情可以参考教程。
 
 ![teaser2](IDM-VTON/assets/teaser2.png)&nbsp;
 ![teaser](IDM-VTON/assets/teaser.png)&nbsp;
@@ -28,7 +28,7 @@ Star ⭐ us if you like it!
 安装前需要你已在安装了python3.10.11或3.10.13 和C++生成工具
 
 ```
-git clone https://github.com/cynic1988/IDMVTON_CN.git
+git clone https://github.com/MoJIeAIGC/IDMVTON_CN.git
 
 运行 windows_install.bat 即可
 
@@ -39,7 +39,6 @@ windows_install.bat 会自动安装所有依赖和库，需自备梯子
 ## 模型下载
 姿势动作人体模型请从此处下载：[ckpt](https://huggingface.co/yisol/IDM-VTON/tree/main).
 * 所有文件都要下载
-
 * 下载好后放入ckpt文件夹下。
 ```
 ckpt
@@ -76,10 +75,8 @@ python IDM-VTON/app_VTON.py
 请自备梯子或镜像耐心等待安装。
 
 ## 教程
-### 安装教程：https://space.bilibili.com/483532108/ 
-### 使用教程：https://space.bilibili.com/483532108/
+### 安装和使用教程：[B站摩诘AI](https://www.bilibili.com/video/BV1VF8Ge4EZh/?vd_source=25d3add966daa64cbb811354319ec18d)
 
-先点个关注，录好了会上传的。
 
 ## 演示地址
 

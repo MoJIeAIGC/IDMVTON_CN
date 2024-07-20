@@ -279,7 +279,7 @@ for ex_human in human_list_path:
 image_blocks = gr.Blocks(theme=gr.themes.Soft()).queue()
 with image_blocks as demo:
     demo.title="摩诘AI汉化优化版VTON_1.0"
-    gr.Markdown("## 摩诘AI汉化优化版VTON，安装使用教程请查阅:" + "[使用教程](https://space.bilibili.com/483532108/)")
+    gr.Markdown("## 摩诘AI汉化优化版VTON，安装使用教程请查阅:" + "[使用教程](https://www.bilibili.com/video/BV1VF8Ge4EZh/?vd_source=25d3add966daa64cbb811354319ec18d)")
     gr.Markdown("模特定制优化，本地/云端部署协助，请加 WeChat:MojieAIGC"+"|| 项目git地址：https://github.com/MoJIeAIGC/IDMVTON_CN")
     with gr.Row():
         with gr.Column():
