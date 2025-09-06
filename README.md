@@ -12,8 +12,8 @@
 
 <h1 align="center">摩诘AI-VTON优化汉化版</h1>
 
-### 此项目已过时，将不再维护新技术频出
-详情看这里：[B站摩诘AI-Kontext服装lora训练](https://www.bilibili.com/video/BV15ehizREe8/)
+### 此项目已过时，将不再维护，即将关闭。
+新技术频出，已取代过时技术，详情看这里：[B站摩诘AI-Kontext服装lora训练](https://www.bilibili.com/video/BV15ehizREe8/)
 
 ---
 ### 本版本对原项目idm-VTON界面做了汉化，优化了原有的内置模特和服装，用SD重做了新模特，增加了一键安装功能和一键运行功能,category成衣类型选项，随机种子和生成数量可选。
